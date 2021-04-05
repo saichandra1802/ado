@@ -25,6 +25,8 @@ namespace WebApplication5
                 {
 
 
+
+
                    Response.Write(sdr["Name"] + " " + sdr["Gender"]);
                 }
 
