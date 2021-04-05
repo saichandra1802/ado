@@ -23,8 +23,12 @@ namespace WebApplication5
                 SqlDataReader sdr = cmd.ExecuteReader();
                 while (sdr.Read())
                 {
+
+
                    Response.Write(sdr["Name"] + " " + sdr["Gender"]);
                 }
+
+                //new line
 
             }
 
